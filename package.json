@@ -1,0 +1,19 @@
+{
+  "name": "babel-webpack-2020-03-26",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "author": "Colin Stodd => https://colinstodd.com | @cbstodd",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.0.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
