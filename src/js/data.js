@@ -1,4 +1,7 @@
-const people = [
+export const groceries = ['Apples', 'Almond Milk', 'Ketchup', 'Ice Cream', 'Small Q-Tips', 'Deodorant', 'Ketchup' ];
+
+
+export const people = [
   {
     id: 1001,
     firstName: 'Colin',
@@ -37,5 +40,5 @@ const people = [
 ];
 
 export default {
-  people
+  people, groceries
 };
